@@ -1,0 +1,38 @@
+h1 {	
+	padding: 0% 20%;
+}
+
+body {
+	padding: 0px;
+}
+
+p {
+	padding: 0% 20%;
+}
+
+.fixed {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 20px;
+	background-color: lightgray;
+}
+
+.relative {
+	background-color: lightgray;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+	margin: 0% 20%;
+	height: 200px;
+}
+
+.absolute {
+	background-color: gray;
+	position: absolute;
+	text-align: center;
+	height: 100px;
+	width: 250px;
+	right: -20px;
+	bottom: 0px;
+}

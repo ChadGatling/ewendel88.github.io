@@ -1,0 +1,20 @@
+header {
+	background-color: blue;
+    color: gold;
+    padding: 10px 0px 0px 3px;
+    border: 5px;
+    margin: 5px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	color: blue;
+}
+
+div {
+	text-align: center;
+}

@@ -8,10 +8,19 @@ header {
     left: 0px;
     background-color: #F5E1DA;
     width: 100%;
-    height: 70px;
-    border-bottom: 3px;
-    border-color: red;	
+    height: 70px;	
 }
+
+h3 {
+	color: teal;
+	border-bottom: gray solid 2px;
+}
+
+h4 {
+	color: teal;
+	border-bottom: gray solid 1px;
+}
+
 .about {
 	margin-top: 100px;
 	/*background-color: purple;*/
@@ -22,18 +31,40 @@ header {
 }
 
 .namebox {
-	background-color: #476268;
+    background-color: #476268;
     float: left;
     color: #40A798;
-    padding: 10px 40px 10px 0px;
+    padding: 0px 40px 0px 0px;
     margin: 0px 0px 0px 60px;
-    font-family: monospace;;
+    font-family: monospace;
+    line-height: 50px;
 }
 
 .navigation {
     float: right;
     background-color: #40A798;
-    padding: 31px;
+    line-height: 70px;
+    padding: 0px 10px;
+}
+
+.contact {
+    float: left;
+    margin: 10% 0px 0px 15px;
+    background-color: white;
+    border: lightblue solid 1px;
+}
+
+.boxtitle {
+	color: teal;
+	border-bottom: gray solid 2px;
+}
+
+.sidepadding {
+	padding: 0px 10px;
+}
+
+.rightpadding {
+	padding-right: 10px;
 }
 
 .nexttopic {
