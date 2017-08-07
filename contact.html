@@ -1,50 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<title>Elliott Wendel</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<header>
-		<div class="namebox">
-			<h1>Elliott Wendel</h1>
-		</div>
-		
-
-		<div class="navigation">
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</div>
-	</header>	
-
-	<div class="contact">
-		<div class="sidepadding">
-			<h3 class="boxtitle">Contact</h3>
-
-			<h4>Name</h4>
-
-			<textarea rows="1" cols="50">John Smith</textarea>
-
-			<h4>E-Mail</h4>
-
-			<textarea rows="1" cols="50">example@email.com</textarea>
-
-			<h4>Message</h4>
-		</div>
-		<div class="textbox sidepadding">
-			<div>
-				<textarea rows="10" cols="50">Send me a message.</textarea>
+	<div class="container">
+		<header class="wrapper">
+			<h1 id="header-name"> Elliott Wendel </h1>
+			<nav id="navitems">
+				<ul>
+					<li><a href="index.html"> About </a></li>
+					<li><a href="portfolio.html"> Portfolio </a></li>
+					<li><a href="#"> Contact </a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="center-area">
+			<div id="main-section">
+				<article id="main-content">
+					<h2>Contact Me</h2>
+					<div id="articleline1"></div>
+					<form>
+						Name:
+						<br/>
+						<input type="text" name="name" placeholder=" John Smith">
+						<br/>
+						<br/>
+						Email:
+						<br/>
+						<input type="email" name="mail" placeholder=" example@gmail.com">
+						<br/>
+						<br/>
+						Subject:
+						<br/>
+						<textarea name="message" rows="20" cols="50" placeholder=" Please write your message here."></textarea>
+						<br/>
+						<br/>
+						<button href="#" type="button" ondblclick="Are you sure you would like to submit?">Submit</button>
+					</form>
+				</article>
 			</div>
-		</div>		
-
-		<div>
-			<p>
-				
-			</p>
+			<aside>
+				<div id="asidecontact">
+					<h3>Connect With Me</h3>
+					<div id="asideline2"></div>
+					<div id="socialimages">
+						<a href="https://github.com/ewendel88" target="_blank"><img id="socialimage" src="assets/images/github.img" alt="This is a picture of the github logo." height="50" width="50"/></a>
+						<a href="https://www.linkedin.com" target="_blank"><img id="socialimage" src="assets/images/linkedin.img" alt="This is a picture of the linkedin logo." height="50" width="50"></a>
+						<a href="https://stackoverflow.com" target="_blank"><img id="socialimage" src="assets/images/stackoverflow.img" alt="This is a picture of the stackoverflow logo." height="50" width="50"></a>
+					</div>
+				</div>
+			</aside>			
 		</div>
+		<footer id="stickyfooter">
+			<p id="copyright">©Copyright 2017 Elliott Wendel</p>		
+		</footer>
 	</div>
-		
-	
 </body>
 </html>
