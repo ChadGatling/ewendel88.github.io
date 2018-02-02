@@ -1,58 +1,103 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>Elliott Wendel</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>About Elliott</title>
+
+	<!-- Boostrap Stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Our own CSS stylesheet -->
+	<link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
 </head>
+
 <body>
-	<div class="container">
-		<header class="wrapper">
-			<h1 id="header-name"> Elliott Wendel </h1>
-			<nav id="navitems">
-				<ul>
-					<li><a href="#"> About </a></li>
-					<li><a href="portfolio.html"> Portfolio </a></li>
-					<li><a href="contact.html"> Contact </a></li>
-				</ul>
-			</nav>
-		</header>
-		<div id="center-area">
-			<div id="main-section">
-				<article id="main-content">
-					<h2>About Me</h2>
-					<div id="articleline1"></div>
-					<div>
-						<img id="profilepic" src="assets/images/head-shot.jpeg" alt="Profile Picture of me">
-						<p>
-							Next level copper mug retro twee wayfarers tattooed butcher freegan XOXO chia. Vape succulents unicorn subway tile cliche farm-to-table. Readymade raw denim letterpress portland food truck, listicle hashtag glossier four dollar toast godard. Farm-to-table tousled whatever freegan. Next level lyft disrupt hell of ennui, coloring book echo park.
-						<br/>
-						<p>
-							Woke tbh pop-up kogi, butcher kitsch leggings crucifix succulents readymade deep v whatever austin. Readymade jean shorts vexillologist jianbing la croix. Fashion axe asymmetrical pitchfork you probably haven't heard of them tbh direct trade small batch, humblebrag deep v celiac food truck DIY beard iPhone. Health goth truffaut gluten-free bitters air plant microdosing. Butcher ethical truffaut, put a bird on it pabst letterpress schlitz literally migas tacos listicle taxidermy.
-						</p>
-						<br/>
-						<p>
-							Messenger bag kinfolk four dollar toast vape authentic subway tile stumptown disrupt craft beer letterpress YOLO brooklyn pour-over hexagon. Man bun disrupt meditation, mixtape meh roof party mustache.
-						</p>
-					</div>
-				</article>
-			</div>
-			<aside>
-				<div id="asidecontact">
-					<h3>Connect With Me</h3>
-					<div id="asideline2"></div>
-					<div id="socialimages">
-						<a href="https://github.com/ewendel88" target="_blank"><img id="socialimage" src="assets/images/github.img" alt="This is a picture of the github logo." height="50" width="50"/></a>
-						<a href="https://www.linkedin.com" target="_blank"><img id="socialimage" src="assets/images/linkedin.img" alt="This is a picture of the linkedin logo." height="50" width="50"></a>
-						<a href="https://stackoverflow.com" target="_blank"><img id="socialimage" src="assets/images/stackoverflow.img" alt="This is a picture of the stackoverflow logo." height="50" width="50"></a>
+	<!-- Start of navbar -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid navbar-custom">
+
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="row">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="col-xs-12 phone-nav">
+						<a class="navbar-brand" href="#" id="logo">Elliott Wendel</a>
 					</div>
 				</div>
-			</aside>			
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right navbar-right-custom">
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="index.html">About</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!-- End of navbar -->
+
+	<!-- Start of content wrap -->
+	<div class="wrap">
+		<div class="container">
+			<section class="row">
+				<div class="col-md-8">
+					<article class="about-me-content">
+						<h1 class="about-me-header">About Me</h1>
+						<hr class="about-me-hr"/>
+						<img src="assets/imgs/headshot02.jpeg" alt="Portfolio Image" id="profile-image"/>
+						<p>My passion for web development started as a hobby when I spent Saturdays developing games and programs for fun while working in real estate and education. I took that passion and decided to make a career out of it by attending the esteemed Coding Bootcamp at the University of Texas, Austin. There I learned to code in several languages and currently specialize in MongoDB, Express, React, and Node (MERN). With my love of puzzles and problem solving, past experience in software programming, and newly established structured and professional instruction in web development, I believe I have the skill set to enhance any web users experience.</p>
+						<br />
+						<p>I enjoy long walks on the beach, food (both fancy and junk), movies, darts, dark beers, games, and karaoke.</p>
+					</article>
+				</div>
+				<div class="col-md-4">
+
+					<!-- Start of Connect With Me Area -->
+					<section id="connect-with-me-area">
+						<div class="connect-with-me-content">
+							<h1 class="connect-with-me-header">Connect With Me</h1>
+							<hr />
+							<div id="images">
+								<a href="https://github.com/ewendel88" target="_blank"><img src="assets/imgs/githubIcon.png" alt="My github link" class="connect-with-me-photo"></a>
+								<a href="https://www.linkedin.com/in/elliott-wendel-429a30145/" target="_blank"><img src="assets/imgs/linkedinIcon.png" alt="" class="connect-with-me-photo"></a>
+								<a href="https://stackoverflow.com/users/8201582/elliott-wendel" target="_blank"><img src="assets/imgs/stackoverflowIcon.png" alt="" class="connect-with-me-photo"></a>
+							</div>
+						</div>
+					</section>
+					<!-- End of the Connect With Me Area -->
+
+				</div>
+			</section>
 		</div>
 	</div>
-	<footer id="stickyfooter">
-		<p id="copyright">©Copyright 2017 Elliott Wendel</p>		
+	<!-- End of content wrap -->
+
+	<!-- Start of footer -->
+	<footer class="footer">
+		<div class="two-toned-footer-color"></div>
+		<p class="text-muted text-muted-footer text-center">
+			&copy; Copyright 2018 Elliott Wendel
+		</p>
 	</footer>
+	<!-- End of footer -->
+
+	<!-- jQuery CDN -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Bootstrap CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
 </html>
